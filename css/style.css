@@ -1,0 +1,135 @@
+/* Список нул */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;  
+}
+*,*:before,*:after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/* ---- шріфти----- */
+
+@font-face {
+    font-family: "circular-std";
+    src: url("../fonts/circular-std-font-family/CircularStd-Book.woff2") format("woff2"), url("../fonts/circular-std-font-family/CircularStd-Book.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "circular-std";
+    src: url("../fonts/circular-std-font-family/CircularStd-medium.woff2") format("woff2"), url("../fonts/circular-std-font-family/CircularStd-medium.woff") format("woff");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "circular-std";
+    src: url("../fonts/circular-std-font-family/CircularStd-bold.woff2") format("woff2"), url("../fonts/circular-std-font-family/CircularStd-bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+font-face {
+    font-family: "circular-std";
+    src: url("../fonts/circular-std-font-family/CircularStd-black.woff2") format("woff2"), url("../fonts/circular-std-font-family/CircularStd-black.woff") format("woff");
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* ---тіло сайту---- */
+
+body{
+    font-family: circular-std;
+    padding: 30px;
+    font-size: 24px;
+    color:blueviolet;
+}
+
+
+h1{
+    font-size: 50px;
+    margin: 30px 0px 30px 0px;
+    color: #666;
+}
+
+.head{
+    margin: 30px;
+}
+
+.headerss, h3{
+    font-size: 30px;
+    color: green;
+}
+
+h2{
+    font-size: 40px;
+    margin: 30px;
+    color: #666;
+}
+
+.img-photo{
+    width: 700px;
+    height: 500px;
+}
+
+.navigacia{
+    color: #666;
+    text-align: right;
+}
+
+.navigacia, span{
+    color: red;
+}
+
+.navigacia li{
+    color: gray;
+}
+
+.list, li{
+    color: blue;
+    line-height: 30px;
+    margin: 0px 0px 20px 0px;
+}
+
+p{  
+    color: blanchedalmond;
+    line-height: 30px;
+    margin: 0px 0px 30px 0px;
+}
+
